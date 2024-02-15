@@ -3,7 +3,7 @@
 ## tarefas
 
 - [ ] header
-- [ ] Apresentação
+- [ ] tipos de cadeiras
 - [ ] Projetos
 - [ ] Conhecimentos
 - [ ] Orçamento
