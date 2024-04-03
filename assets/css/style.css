@@ -1,0 +1,12 @@
+.top-right {
+    position: absolute;
+    font-size: 100px;
+    top: 128px;
+    right: 64px;
+  }
+.bottom-right {
+    position: absolute;
+    font-size: 70px;
+    bottom: 500px;
+    right: 64px;
+  }

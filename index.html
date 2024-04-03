@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="color: white;">Portfólio - Gabriel</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script.js" defer></script>
+</head>
+<body style="background-color: #964b00;">
+    <img src = "assets\images\foto cadeiras.avif" height="20%" width="100%">
+    <div class="top-right" style="color: #964b00;">Gabriel Cadeiras</div>
+    <div class="bottom-right" style="color: #964b00;">As melhores cadeiras do mercado</div>
+    <header>
+        <h1 style="color: white;">Gabriel Centin Silva</h1>
+        <h2 style="color: white;">Vendedor</h2>
+    </header>    
+
+    <section id="secao-apresentacao">
+        <img src="assets\images\foto.jpg" height="30%"width = "15%">
+        <div id="texto-apresentacao">
+            <h2 style="color: white;">Melhores cadeiras do Brasil</h2>
+            <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, est modi rem necessitatibus deserunt sapiente.</p>
+        </div>
+    </section>
+
+    <section id="secao-projetos">
+        <ul>
+            <li>
+                <div class="card">
+                    <div class="image-wrapper">
+                        <img src="assets\images\cadeira de escritorio.jpg" height="30%"width = "15%">
+                    </div>
+                    <div class="card-text">
+                        <h2 style="color: white;">Cadeiras de escritorio</h2>
+                        <p style="color: white;">Muito confortavel para quem as usa o dia inteiro</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="card">
+                    <div class="image-wrapper">
+                        <img src="assets\images\cadeira de madeira.jpg" height="30%"width = "15%">
+                    </div>
+                    <div class="card-text">
+                        <h2 style="color: white;">Cadeira de madeira</h2>
+                        <p style="color: white;">Um assento simples e barato</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="card">
+                    <div class="image-wrapper">
+                        <img src="assets\images\poltrona.webp" height="30%"width = "15%">
+                    </div>
+                    <div class="card-text">
+                        <h2 style="color: white;">Poltronas</h2>
+                        <p style="color: white;">espaçosas mas muito confortaveis para ficar na sua sala de estar</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section id="secao-orcamento">
+        <h2 style="color: white;">Faça um orçamento</h2>
+        <form action="">
+            <div class="campo linha">
+                <label style="color: white;" for="nome">Nome da cadeira</label>
+                <input type="text" id="nome">
+            </div>
+
+            <div class="campo">
+                <label style="color: white;" for="paginas">Qtde de Cadeiras</label>
+                <input type="number" id="paginas" min="1" value="1">
+            </div>
+
+            <div class="campo">
+                <label style="color: white;" for="tipo">Tipo de Cadeira</label>
+                <select id="tipo">
+                        <option value="1" selected>escritorio</option>
+                        <option value="2">madeira</option>
+                        <option value="3">poltrona</option>
+                </select>
+            <div>
+                <div class="campo linha">
+                    <label for="">precisa de protótipo?</label>
+                    <div>
+                        <input type="radio" name="prototipo" id="prototipo_sim">
+                        <label for="prototipo_sim">sim, preciso</label>
+                        <input type="radio" name="prototipo" id="prototipo_nao">
+                        <label for="prototipo_nao">não, já tenho</label>
+                    </div>
+                </div>
+    
+                <input type="checkbox" id="js">
+                <label for="js">tem automação com JS</label>
+    
+                <label for="prazo">Prazo</label>
+                <input type="range" min="1" max="12" id="prazo">
+                
+                <output id="valor">R$ 1000,00</output>
+    
+
+        </form>
+    </section>
+
+  
+
+    
+</body>
+</html>
