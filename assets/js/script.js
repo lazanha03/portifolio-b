@@ -15,16 +15,13 @@ const qtdeDePaginas = document.querySelector("#paginas").value
 //var = global 
 //const = imutavel o valor
 //let = valor dentro de uma função
-let valor = qtdeDePaginas * 1000
+let valor = qtdeDeCadeiras * 500
 
 const tipo = document.querySelector("#tipo").value
 if(tipo==2) valor+=2000
 
-const prototipo = document.querySelector("#prototipo_sim").checked
-if (prototipo) valor *=1.1
-
 document.querySelector("#valor").innerText = "R$" + valor.toFixed(2)
 
 
-console.log(qtdeDePaginas)
+console.log(qtdeDeCadeiras)
 }
